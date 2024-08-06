@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="main">
+      <form>
+        <label>Name</label>
+        <input placeholder="Name" type="text">
+        <br>
+        <label>Sex</label>
+        <label>
+            <input name="gender" type="radio" checked>Male
+        </label>
+        <label>
+            <input name="gender" type="radio">FeMale
+        </label>
+        <br>
+        <label>Country</label>
+        <select>
+            <option">Select an option</option>
+            <option>Nepal</option>
+            <option>India</option>
+            <option>Canada</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+        <br>
+        message
+        <br>
+        <input type="text" name="message" id="massage">
+        <br>
+        <label for="sub">
+            <input type="checkbox" name="suscribe" id="sub">Suscribe?
+        </label>
+        <br>
+        <input type="submit" value="submit">
+      </form>
+    </div>
+    <br>
+    <div class="second">
+        <h1>Feedback Form</h1>
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Write your name">
+            <br>
+            <label>Email</label>
+            <input type="email" placeholder="Write your email">
+            <br>
+            Message <br>
+            <input type="text">
+            <br>
+            <label>Rate us our of 5:</label> <br>
+            <label>
+                <input type="radio" name="rate"> 1
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="rate"> 2
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="rate"> 3
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="rate"> 4
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="rate"> 5
+            </label>
+            <br>
+            <input type="submit" value="Send your message">
+        </form>
+    </div>
+  </body>
+</html>
