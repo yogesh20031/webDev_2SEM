@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+}
+.title{
+    padding-top: 5px;
+    
+}
+.main{
+    height: 100vh;
+    width: 45%;
+    background-color: rgb(235, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+form{
+    font-size: 1.4rem;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
