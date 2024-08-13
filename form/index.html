@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <p>Code library Survey Form</p>
+      <div class="small">
+        <form class="fill">
+          <label>
+            Name:
+            <input type="text" class="info" placeholder="Enter your Name" />
+          </label>
+          <br />
+          <label>
+            Email:
+            <input type="text" class="info" placeholder="Enter your Email" />
+          </label>
+          <br />
+          <label>
+            Age:
+            <input type="number" class="info" placeholder="Enter your age" />
+          </label>
+          <br />
+          <label>Gender</label>
+          <br />
+          <div class="gender">
+            <div class="male">
+              <label
+                >Male
+                <br />
+                <input type="radio" name="gender" />
+              </label>
+            </div>
+            <div class="male">
+              <label
+                >Female
+                <br />
+                <input type="radio" name="gender" />
+              </label>
+            </div>
+            <div class="male">
+              <label
+                >Other
+                <br />
+                <input type="radio" name="gender" />
+              </label>
+            </div>
+          </div>
+          <label>
+            <label class="word">Which Option Describe You ?</label>
+            <br />
+            <select name="describe">
+              <option value="describe">Teacher</option>
+              <option value="describe">Footballer</option>
+              <option value="describe">Cricketer</option>
+              <option value="describe">Coder</option>
+            </select>
+          </label>
+          <br />
+          <label class="word">Your Best Programming Language</label>
+          <div class="check">
+            <div class="chose">
+              <label name="language"
+                >C
+                <br />
+                <input type="checkbox" name="language" checked />
+              </label>
+            </div>
+            <div class="chose">
+              <label name="language"
+                >Python
+                <br />
+                <input type="checkbox" name="language" />
+              </label>
+            </div>
+            <div class="chose">
+              <label name="language"
+                >Java
+                <br />
+                <input type="checkbox" name="language" />
+              </label>
+            </div>
+            <div class="chose">
+              <label name="language"
+                >JavaScript
+                <br />
+                <input type="checkbox" name="language" />
+              </label>
+            </div>
+          </div>
+          <input type="submit" class="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
