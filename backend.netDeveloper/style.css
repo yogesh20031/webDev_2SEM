@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    --BORDER:2px solid black;
+    --MAIN-COLOR:#D2D2D2;
+    --NAV-TOP-COLOR:#F1F1F4;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width:800px;
+    height: 650px;
+    border: var(--BORDER);
+    padding: 40px 40px;
+    background-color: var(--MAIN-COLOR);
+}
+.left-top-nav{
+    height: 70px;
+    width: 440px;
+    border-radius: 15px;
+    border: var(--BORDER);
+    background-color: var(--NAV-TOP-COLOR);
+    display: flex
+}
+.top-nav-findJob{
+   
+}
+.left-bottom-content-boundery{
+    height: 500px;
+    width: 440px;
+    border-radius: 15px;
+    border: var(--BORDER);
+
+}

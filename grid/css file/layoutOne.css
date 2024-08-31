@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    --MAIN-BG:#FFEC99;
+    --CONTAINRER-BG:#FEC9C9;
+}
+body{
+    height: 100vh;
+   display: grid;
+   justify-content: center;
+   align-content: center;
+}
+.main-div{
+    padding: 30px 50px;
+    height: 700px;
+    width: 880px;
+    border-radius: 15px;
+    background-color: var(--MAIN-BG);
+    display: grid;
+   grid-template-rows: 1fr 1fr;
+   gap:20px;
+}
+.upper-div{
+    width: 880px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: repeat(2,1fr); */
+    
+    
+}
+.vertical-box{
+    height: 400px;
+    width: 140px;
+    border-radius: 15px;
+    background-color: var(--CONTAINRER-BG);
+}
+.horiznatal-box{
+    
+    height: 200px;
+    width: 770px;
+    border-radius: 15px;
+    background-color: var(--CONTAINRER-BG);
+}

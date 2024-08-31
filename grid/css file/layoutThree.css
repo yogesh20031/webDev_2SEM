@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    --MAIN-BG:#FFEC99;
+    --CONTAINRER-BG:#FEC9C9;
+    --EX-COLOE:#fff;
+    --LOWER-COLOR:#93C799;
+}
+body{
+    height: 100vh;
+   display: grid;
+   justify-content: center;
+   align-content: center;
+}
+.main-div{
+    padding: 30px 50px;
+    height: 700px;
+    width: 800px;
+    border-radius: 15px;
+    background-color: var(--MAIN-BG);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+    column-gap: 20px;
+}
+.left{
+    height: 650px;
+    width:501px;
+   display: grid;
+   grid-template-rows:1fr 1fr;
+   gap:20px;
+}
+.upper{
+    height: 100px;
+    width:501px;
+    border-radius: 15px;
+    background-color: var(--CONTAINRER-BG);
+}
+
+.lower{
+    height: 500px;
+    width:501px;
+    border-radius: 15px;
+    background-color: var(--CONTAINRER-BG);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.bound{
+    height: 470px;
+    width:480px;
+    display: grid;
+    gap:30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+.box{
+    height: 120px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: var(--LOWER-COLOR);
+}
+.right{
+    height: 650px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: var(--CONTAINRER-BG);
+}
