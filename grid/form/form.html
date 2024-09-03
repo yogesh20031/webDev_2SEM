@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="heading-description">
+        <h2 class="heading">Job Application Form</h2>
+        <p class="description">
+          Thank you for your intrest in working with us.Please check below for
+          available job opportunities that meet your ceiteria and send your
+          application by filling out the job Application form
+        </p>
+      </div>
+      <div class="name small">
+        <div class="label">
+          <label for="name">Name</label>
+        </div>
+        <input type="text" class="input-text" placeholder="First" />
+      </div>
+      <div class="last small">
+        <div class="label">
+          <label for="name"></label>
+        </div>
+        <input type="text" class="input-text" placeholder="Last" />
+      </div>
+      <div class="email big">
+        <div class="big-label">
+          <label for="name">Email</label>
+        </div>
+        <input
+          type="text"
+          class="full-input"
+          placeholder="john.doe@example.com"
+        />
+      </div>
+      <div class="position small">
+        <div class="label">
+          <label for="name">which position are you applying for?</label>
+        </div>
+        <select class="input-text">
+          <option>select</option>
+          <option>Web Developer</option>
+          <option>App Developer</option>
+          <option>Cyber Security</option>
+        </select>
+      </div>
+      <div class="date small">
+        <div class="label">
+          <label for="name">Available Date</label>
+        </div>
+        <input type="date" class="input-text" />
+      </div>
+      <div class="employee-status">
+        <div class="employee-status-heading">
+          What is your current employee status?
+        </div>
+        <div class="status-radio">
+          <label>
+            <input type="radio" name="status" />
+            Employed
+          </label>
+        </div>
+        <div class="status-radio">
+          <label>
+            <input type="radio" name="status" />
+            Self-Employed
+          </label>
+        </div>
+        <div class="status-radio">
+          <label>
+            <input type="radio" name="status" />
+            Unemployed
+          </label>
+        </div>
+        <div class="status-radio">
+          <label>
+            <input type="radio" name="status" />
+            Student
+          </label>
+        </div>
+      </div>
+      <div class="resume-link small">
+        <div class="label">
+          <label for="name">please provide your resume link</label>
+        </div>
+        <input
+          type="text"
+          class="input-text"
+          placeholder="https://www.example.com/"
+        />
+      </div>
+      <div class="resume-photo small">
+        <div class="label">
+          <label for="name">please uplode your resume </label>
+        </div>
+        <input type="text" class="input-text" placeholder="Resume" />
+      </div>
+      <div class="reference-name small">
+        <div class="label">
+          <label for="name">Do you have any referal?(optional)</label>
+        </div>
+        <input type="text" class="input-text" placeholder="First" />
+      </div>
+      <div class="reference-last small">
+        <div class="label">
+          <label for="name"></label>
+        </div>
+        <input type="text" class="input-text" placeholder="Label" />
+      </div>
+      <div class="reference-email small">
+        <div class="big-label">
+          <label for="name"> Reference Email</label>
+        </div>
+        <input
+          type="text"
+          class="full-input"
+          placeholder="john.doe@example.com"
+        />
+      </div>
+      <div class="buttons">
+        <button class="submit-button">Reset</button>
+        <button class="submit-button apply">Apply</button>
+      </div>
+    </div>
+  </body>
+</html>

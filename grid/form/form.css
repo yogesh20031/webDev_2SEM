@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  justify-items: center;
+}
+
+.main {
+  border: 1px solid #222;
+  height: 120vh;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(12, 1fr);
+  gap: 15px;
+  padding: 20px 30px;
+}
+.heading-description {
+  grid-column: 1/3;
+  grid-row: 1/4;
+}
+.heading {
+  font-size: 2rem;
+  margin: 25px 0 25px 25px;
+
+  border-bottom: 1px solid #222;
+}
+.description {
+  font-size: 1.3rem;
+  color: #464646;
+}
+
+/* small input bar */
+.small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  height: 20px;
+  width: 80%;
+}
+.input-text {
+  height: 30px;
+  width: 80%;
+  border: 1px solid #333;
+}
+/* big input bar */
+.big {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.big-label {
+  height: 20px;
+  width: 90%;
+}
+.full-input {
+  height: 30px;
+  width: 90%;
+}
+.position > .label,
+.resume-link > .label,
+.resume-photo > .label,
+.reference-name > .label {
+  font-size: 0.8rem;
+}
+
+.email,
+.reference-email {
+  grid-column: 1/3;
+}
+.employee-status {
+  grid-column: 1/3;
+  grid-row: 7/9;
+}
+/* this is for employee status */
+.employee-status {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  padding-left: 27px;
+}
+.employee-status-heading {
+  grid-column: 1/3;
+}
+.status-radio,
+.employee-status-heading {
+  display: flex;
+  align-items: center;
+}
+/* last button */
+.buttons {
+  display: flex;
+  align-items: center;
+  padding-left: 27px;
+  gap: 20px;
+}
+.submit-button {
+  height: 40px;
+  width: 80px;
+  background-color: #fff;
+}
+.apply {
+  background-color: #000;
+  color: #fff;
+}

@@ -25,13 +25,17 @@ body {
   align-items: center;
 }
 .main {
-  width: 900px;
-  height: 650px;
+  width: 100%;
+  height: 100%;
+  /* width: 900px;
+  height: 650px; */
   /* border: var(--BORDER); */
   padding: 40px 40px;
   background-color: var(--MAIN-COLOR);
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
   /* justify-content: space-between; */
 }
 
@@ -266,4 +270,45 @@ body {
 }
 .apply-now{
   width: 220px;
+}
+@media screen and (max-width:375px) {
+  .left-div {
+    width: 375px;
+  }
+  .left-top-nav {
+    height: 70px;
+    width: 375px;
+    border-radius: var(--BORDER-RADIUS);
+    /* border: var(--BORDER); */
+    background-color: var(--NAV-TOP-COLOR);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .top-nav-findJob {
+    height: 70px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .job-input {
+    height: 35px;
+    width: 259px;
+    margin-left: 30px;
+    border-radius: 15px 0 0 15px;
+  }
+  #select-locaton {
+    height: 35px;
+    width: 129px;
+    border-radius: 0 15px 15px 0;
+  }
+  #select-button ,.apply-now{
+    color: var(--CONTAINER-BG);
+    height: 35px;
+    width: 80px;
+    border-radius: var(--BORDER-RADIUS);
+    background-color: var(--BUTTON-BG);
+  }
 }
